@@ -1,0 +1,21 @@
+.customer-container{
+    margin: 20px 50px;
+    padding: 20px 150px;
+}
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #487eb0;
+}
+
+.btn-customer{
+    margin-top: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+}
+
+
