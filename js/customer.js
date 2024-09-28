@@ -1,7 +1,7 @@
 const database = firebase.firestore();
 
 function createCustomer(nic, name, address, phone) {
-    database.collection("customers").add({
+    database.collection("customer").add({
       nic: nic,
       name: name,
       address: address,
