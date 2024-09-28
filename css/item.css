@@ -1,0 +1,19 @@
+.item-container{
+    margin: 20px 50px;
+    padding: 20px 150px;
+}
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #01a3a4;
+}
+
+.btn-item{
+    margin-top: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+}
