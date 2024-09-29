@@ -87,10 +87,11 @@ const addToCart = () => {
 }
 
 const placeOrder = () => {
-    // if(!selectedCustomer && !items){
-    //     alert("Please select a customer and add items to the cart");
-    //     return;
-    // }
+    //items not defined
+    if(!selectedCustomer && !items){
+        alert("Please select a customer and add items to the cart");
+        return;
+    }
 
     let data = {
         items: [],
